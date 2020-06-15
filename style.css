@@ -30,7 +30,8 @@ header {
 }
 
 nav {
-    background-color: black;
+    background-color: var(--background);
+    border-bottom: 1px solid var(--text);
     padding-top: .82vh;
 }
 
@@ -243,7 +244,8 @@ li {
 footer {
     display: flex;
     justify-content: space-evenly;
-    background-color: black;
+    border-top: 1px solid var(--text);
+    background-color: var(--background);
     width: 100%;
     min-height: 50px;
     max-height: 80px;
