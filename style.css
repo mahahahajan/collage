@@ -7,7 +7,7 @@
 
 @media(prefers-color-scheme:dark) {
     :root {
-        --background: #191B1F;
+        --background: #000;
         --text: white;
     }
 }
@@ -135,13 +135,13 @@ section {
 }
 
 #welcome {
-    padding: 70px 170px 50px;
-    text-align: left;
+    padding: 70px 30px 50px;
+    text-align: center ;
 }
 
 #welcome-text {
     font-size: 3.8rem;
-
+    font-weight: 300 !important;
 }
 
 h1 {
